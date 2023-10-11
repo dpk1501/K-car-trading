@@ -359,7 +359,7 @@
     .service_two {
         align-items: left;
         position: relative;
-        margin: 10% 0 0 0%;
+        margin: 10% 20% 0 0%;
     }
 
     .service_two h2{
@@ -368,13 +368,13 @@
     }
 
     .service_two ul li {
-        margin: 5% 0 0 10%;
+        margin: 5% 0 0 40%;
         font-size: 12%;
         width: 65%;
     }
 
     .last_one {
-        bottom: -6.5%;
+        bottom: -7.2%;
     }
 
     .menubox2 {
