@@ -279,9 +279,11 @@
     }
 
     .car2 {
-        top: 24%;
-        width: 80%;
-        height: 50%;
+        background-image: url('../images/car6.webp');
+        right: 8%;
+        top: 34%;
+        width: 100%;
+        height: 28%;
 
     }
 
@@ -292,7 +294,7 @@
     }
 
     .expertise_block {
-        top: 44%;
+        top: 40%;
         left: 18%;
     }
     .overall {

@@ -6,6 +6,8 @@ html, body {
     background: linear-gradient(180deg, #000 0%, rgba(157, 157, 157, 0.00) 100%);
 
     scroll-behavior: smooth;
+
+    -webkit-overflow-scrolling: touch;
 }
 
 /* экран 1 */
