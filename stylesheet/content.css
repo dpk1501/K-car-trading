@@ -451,6 +451,7 @@ body::-webkit-scrollbar {
 }
 
 .numbers {
+    text-decoration: none;
     font-family: 'Open Sans';
     font-style: normal;
     line-height: 115%;
