@@ -1,0 +1,624 @@
+html, body {
+    overflow-x: hidden;
+    height: 3900px;
+    font-size: 32vw;
+    background: linear-gradient(180deg, #000 0%, rgba(157, 157, 157, 0.00) 100%);
+
+    scroll-behavior: smooth;
+}
+
+/* экран 1 */
+.block_1 {
+    position: relative;
+    width: 100%;
+    height: 20%;
+    flex-shrink: 0;
+    clip-path: polygon(0 0, 100% 0, 99% 90%, 0% 100%);
+
+    background: linear-gradient(180deg, #641110 26%, #240201 81%);
+}
+
+
+.inside_block {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    margin-left: 7vw;
+}
+
+/* .back_shape {
+   width: 1440px; 
+   height: 968.50px; 
+   background: linear-gradient(180deg, #641110 26%, #240201 81%);
+} */
+
+.menu {
+    position: relative;
+    margin-top: 4vh;
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+}
+
+.name {
+    position: absolute;
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 5%;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.name a {
+    text-decoration: none;
+    color: white;
+}
+.menubox {
+    position: absolute;
+    font-family: 'Open Sans';
+    font-size: 4%;
+    color: #FFF;
+    right: 25%;
+    flex-wrap: wrap;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menubox ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menubox ul li {
+    margin: 0 16%;
+}
+
+.menubox ul a {
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+}
+
+.menubox ul a:hover {
+    text-decoration: underline;
+}
+
+
+
+.moto {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 6%;
+    color: #ECE0A6;
+    font-family: 'Open Sans';
+    font-size: 20%;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+.line {
+    position: relative;
+    width: 10%;
+    height: 0px;
+    stroke-width: 4px;
+    stroke: #ECE0A6;
+    margin-bottom: 3%;
+}
+
+.about_company {
+    position: relative;
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 4%;
+    font-weight: 300;
+    line-height: 100%;
+
+    width: 32%;
+}
+
+.carbox {
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    height: 70%;
+}
+
+.car1 {
+    background: url('../images/car1.svg');
+    background-size: cover;
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    right: 30%;
+    bottom: 20%;
+
+    animation: car1 3s ease;
+    z-index: 1;
+}
+
+@keyframes car1 {
+    0% {
+        right: -100px;
+    }
+    100% {
+        right: 30%;
+    }
+}
+
+.road {
+    position: absolute;
+    bottom: 35%;
+    right: 0;
+    width: 50%;
+    height: 30%;
+    background: white;
+
+    animation: road 3s ease;
+    z-index: 0;
+}
+
+@keyframes road {
+    0% {
+        right: -50%;
+    }
+    100% {
+        right: 0;
+    }
+}
+
+.your_road {
+    width: 50%;
+    color: #540302;
+    font-family: 'Open Sans';
+    font-size: 6%;
+    font-weight: 400;
+    line-height: 115%;
+    text-transform: uppercase;
+    position: relative;
+    margin: 2% 0 0 44%;
+}
+
+/* экран 2 */
+#section1 {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 30%;
+
+    flex-shrink: 0;
+}
+
+.inside_block2 {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: 7vw;
+}
+
+.photo_block {
+    position: absolute;
+    width: 33%; 
+    height: 35%; 
+    background: #D9D9D9;
+    border-radius: 25px;
+
+    margin-top: 5%;
+}
+.about_block {
+    border-radius: 25px;
+    position: absolute;
+    margin-top: 5%;
+    right: 13%;
+    width: 45%; 
+    height: 70%; 
+    background: linear-gradient(180deg, #641110 0%, #240201 100%)
+}
+
+.about_text {
+    position: r;
+    color: #FFF;
+    font-family:'Open Sans';
+    margin: 10% auto;
+    font-size: 5.5%;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 115%;
+    width: 80%;
+}
+
+.car2 {
+    background-image: url('../images/car2.svg');
+    background-size: 100% 100%;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    right: -4%;
+    top: 16%;
+}
+
+.expertise_block {
+    position: relative;
+    width: 60%;
+    height: 30%;
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+
+    margin-top: 50%;
+}
+
+.overall {
+    font-size: 6%;
+    font-weight: 600;
+    width: 60%;
+    position: relative;
+    margin-bottom: 10%;
+}
+
+
+.icon {
+    position: absolute;
+    left: -3%;
+    width: 13%;
+    height: 13%;
+}
+
+.one {
+    margin: -2% 0 10% 0;
+    background: url('../images/icon1.svg');
+    background-size: 100% 100%;
+}
+.two {
+    margin: -2% 0 10% 0;
+    background: url('../images/icon2.svg');
+    background-size: 100% 100%;
+}
+.three {
+    margin: -2% 0 10% 0;
+    background: url('../images/icon3.svg');
+    background-size: 100% 100%;
+}
+.four {
+    margin: -2% 0 10% 0;
+    background: url('../images/icon4.svg');
+    background-size: 100% 100%;
+}
+.expertise_block ul {
+    font-size: 5%;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+}
+
+.expertise_block ul li {
+    margin-bottom: 10%;
+}
+
+.expertise_block ul li p {
+    margin-left: 8%;
+}
+
+
+.block_3 {
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(180deg, #240201 0%,  #641110 100%);
+
+    clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
+}
+
+.back_shape2 {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.car3 {
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    overflow: hidden;
+    margin-top: -15%;
+    right: 5%;
+    z-index: 1;
+}
+
+.inside_block3 {
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+
+.inside_block3 ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts_and_adresses {
+    margin-top: 20%;
+    text-align: center;
+}
+
+#contacts {
+    color: #AEAEAE;
+    font-family: 'Open Sans';
+    font-size: 3%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#contact_me {
+    color: #ECE0A6;
+    font-family: 'Open Sans';
+    font-size: 8%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+    margin: 2% auto;
+}
+
+.social_media {
+    position: relative;
+    width: 80%;
+    height: 5%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.social1 {
+    background: url('../images/contacticon.svg');
+    background-size: 100% 100%;
+    width: 10%;
+    height: 80%;
+}
+
+.social2 {
+    background: url('../images/contacticon2.svg');
+    background-size: 100% 100%;
+    width: 10%;
+    height: 80%
+}
+
+.social3 {
+    background: url('../images/contacticon3.svg');
+    background-size: 100% 100%;
+    width: 10%;
+    height: 80%;
+}
+
+.social4 {
+    background: url('../images/contacticon4.svg');
+    background-size: 100% 100%;
+    width: 10%;
+    height: 80%;
+}
+
+
+.social5 {
+    background: url('../images/contacticon5.svg');
+    background-size: 100% 100%;
+    width: 10%;
+    height: 80%;
+}
+
+.adresses {
+    position: relative;
+    margin: 0 auto;
+    margin: 5% 0 0 0;
+}
+.adress {
+    margin: 5% 0 0 0;
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    line-height: 115%;
+}
+
+.s1 {
+    font-size: 5%;
+    font-weight: 600;
+}
+
+.s2 {
+    margin: 5% 0 0 0;
+    font-size: 5%;
+    font-weight: 400;
+}
+
+.numbers {
+    font-family: 'Open Sans';
+    font-style: normal;
+    line-height: 115%;
+    color: #FFF;
+    margin: 5% 0 0 0;
+    font-size: 5%;
+    font-weight: 400;
+}
+
+/* новая секция */
+#section3 {
+    width: 100%;
+    position: relative;
+    color: #FFF;
+    overflow-x: hidden;
+}
+
+.car4 {
+    background-image: url('../images/car4.svg');
+    background-size: 100% 100%;
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+}
+
+.services {
+    overflow: hidden;
+    margin: 10% 0 0 50%;
+    width: 100%;
+    position: relative;
+    color: #FFF;
+    overflow-x: hidden;
+}
+.main_services {
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: #AEAEAE;
+    font-size: 3%;
+    font-weight: 400;
+}
+
+.what_services {
+    margin-top: 2%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: #ECE0A6;
+    font-size: 8%;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.myservices ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.myservices ul li {
+    margin: 5% 0 0 5%;
+    width: 40%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 5%;
+    font-style: normal;
+    font-weight: 300;
+}
+.myservices ul li::before {
+    background-image: url('../images/icon3.svg');
+    background-size: 100% 100%;
+	width: 2em;
+	height: 2em;
+    content: '';
+	position: absolute;
+	left: 0;
+    background-repeat: no-repeat;;
+}
+
+.first_service {
+    font-weight: 600;
+}
+
+.service_two {
+    position: relative;
+    margin: 7% auto;
+}
+
+.service_two p {
+    text-align: center;
+}
+.service_two h2{
+    text-align: center;
+    color: #ECE0A6;
+    font-family: 'Open Sans';
+    font-size: 8%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+    margin: 2% auto;
+}
+
+
+.service_two ul {
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+}
+.service_two ul li {
+    align-items: center;
+    margin: 1% 0 0 0;
+    width: 40%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 5%;
+    font-weight: 300;
+
+    color: white;
+}
+
+.service_two ul li::before {
+    background-image: url('../images/icon3.svg');
+    background-size: 100% 100%;
+	width: 2em;
+	height: 2em;
+    content: '';
+    left: 25%;
+	position: absolute;
+    background-repeat: no-repeat;;
+}
+
+.last_one {
+    width: 100%;
+    height: 5%;
+    position: relative;
+
+    margin-bottom: 0;
+    background: white;
+    align-items: center;
+}
+
+.menubox2 {
+    position: absolute;
+    font-family: 'Open Sans';
+    font-size: 3%;
+    color: #0000;
+    top: 20%;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+
+    right: 45%;
+
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menubox2 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menubox2 ul li {
+    margin: 0 16%;
+    align-items: center;
+}
+
+.menubox2 ul a {
+    text-decoration: none;
+    color: black;
+    white-space: nowrap;
+}
+
+.menubox2 ul a:hover {
+    text-decoration: underline;
+}
