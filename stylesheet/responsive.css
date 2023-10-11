@@ -198,11 +198,11 @@
     }
 
     .block_1 {
-        height: 20%;
+        height: 33%;
     }
     .moto {
         margin-top: 18%;
-        font-size: 30%;
+        font-size: 25%;
         margin-bottom: 5%;
     }
 
@@ -263,7 +263,7 @@
     /* экран 2 */
 
     #section1 {
-        height: 30%;
+        height: 50%;
     }
 
     .photo_block {
@@ -288,9 +288,7 @@
     }
 
     .block_3 {
-        height: 49%;
-
-        bottom: 0;
+        height: 85%;
     }
 
     .expertise_block {
@@ -333,28 +331,28 @@
 
     .car4 {
         background-image: url('../images/car5.webp');
-        bottom: 13%;
+        bottom: 48%;
         width: 90%;
-        height: 40%;
+        height: 20%;
     }
 
     .services {
-        margin: 62% 0 0 12%;
+        margin: 62% 0 0 18%;
     }
     .main_services {
         position: relative;
         margin: 8% 0 0 17%;
-        font-size: 12%;
+        font-size: 10%;
     }
 
     .what_services {
         margin: 3% 0 0 3%;
-        font-size: 15%;
+        font-size: 12%;
     }
 
     .myservices ul li {
         margin: 5% 0 0 10%;
-        font-size: 12%;
+        font-size: 10%;
         width: 65%;
     }
 
@@ -366,26 +364,27 @@
 
     .service_two h2{
         margin: 8% 0 0 17%;
-        font-size: 15%;
+        font-size: 12%;
     }
 
     .service_two ul li {
         margin: 5% 0 0 40%;
-        font-size: 12%;
+        font-size: 10%;
         width: 65%;
     }
+    .menubox2 {
+        font-size: 8%;
+        right: 33%;
+        top: 19%;}
 
     .last_one {
         height: 2%;
-    }
-
-    .menubox2 {
-        font-size: 10%;
-        right: 30%;
-        top: 30%;
+        bottom: 0;
     }
 
 }
+
+/* -------- */
 
 /* экран для 414 */
 @media screen and (min-width: 375px) and (max-width: 425px) {
