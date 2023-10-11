@@ -583,7 +583,7 @@
 
   @media screen and (min-width: 320px) and (max-width: 375px) {
 body, html {
-        height: 2700px;
+        height: 2600px;
     }
 
     .block_1 {
