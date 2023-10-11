@@ -10,6 +10,9 @@ html, body {
     -webkit-overflow-scrolling: touch;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
 /* экран 1 */
 .block_1 {
     position: relative;
