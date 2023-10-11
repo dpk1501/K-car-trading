@@ -457,7 +457,7 @@ body::-webkit-scrollbar {
     font-weight: 400;
 }
 
-.numbers {
+.numbers, .adresses ul li{
     text-decoration: none;
     font-family: 'Open Sans';
     font-style: normal;
