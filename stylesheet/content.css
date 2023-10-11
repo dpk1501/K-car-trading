@@ -16,6 +16,8 @@ body::-webkit-scrollbar {
 }
 /* экран 1 */
 .block_1 {
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
     position: relative;
     width: 100%;
     height: 20%;
@@ -192,6 +194,8 @@ body::-webkit-scrollbar {
 
 /* экран 2 */
 #section1 {
+    overflow: scroll;
+-webkit-overflow-scrolling: touch;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -313,6 +317,8 @@ body::-webkit-scrollbar {
 
 
 .block_3 {
+    overflow: scroll;
+-webkit-overflow-scrolling: touch;
     z-index: 1;
     position: relative;
     width: 100%;
