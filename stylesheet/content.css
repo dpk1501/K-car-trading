@@ -192,10 +192,11 @@ body::-webkit-scrollbar {
     margin: 2% 0 0 44%;
 }
 
+.block_2 {
+-webkit-overflow-scrolling: touch;
+}
 /* экран 2 */
 #section1 {
-    overflow: scroll;
--webkit-overflow-scrolling: touch;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -461,7 +462,7 @@ body::-webkit-scrollbar {
     font-family: 'Open Sans';
     font-style: normal;
     line-height: 115%;
-    color: #FFF;
+    color: #FFFF;
     margin: 5% 0 0 0;
     font-size: 5%;
     font-weight: 400;
