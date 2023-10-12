@@ -318,7 +318,6 @@ body::-webkit-scrollbar {
 
 
 .block_3 {
-    overflow: scroll;
 -webkit-overflow-scrolling: touch;
     z-index: 1;
     position: relative;
