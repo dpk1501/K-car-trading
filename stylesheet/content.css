@@ -467,6 +467,10 @@ body::-webkit-scrollbar {
     font-weight: 400;
 }
 
+.num {
+    text-decoration: none;
+}
+
 /* новая секция */
 #section3 {
     width: 100%;
