@@ -1,6 +1,15 @@
+/* экран для 2560 */
+@media screen and (min-width: 1920px) and (max-width: 2560px) {
+    body, html {
+        height: 8000px;
+    }
+  }
+
 /* экран для 1920 */
 @media screen and (min-width: 1440px) and (max-width: 1920px) {
-
+    body, html {
+        height: 6000px;
+    }
   }
 
   /* экран для 1440 */

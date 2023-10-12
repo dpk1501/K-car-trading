@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
 }
 /* экран 1 */
 .block_1 {
-    overflow: scroll;
+
     -webkit-overflow-scrolling: touch;
     position: relative;
     width: 100%;
