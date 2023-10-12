@@ -201,9 +201,202 @@
   }
 
   /* экран для 834 */
-  @media screen and (min-width: 425px) and (max-width: 834px) {
+  @media screen and (min-width: 549px) and (max-width: 834px) {
     body, html {
         height: 2900px;
+    }
+
+    .block_1 {
+        height: 33%;
+    }
+    .moto {
+        margin-top: 18%;
+        font-size: 25%;
+        margin-bottom: 5%;
+    }
+
+    .name {
+        font-size: 6%;
+    }
+    .menubox {
+        font-size: 8%;
+        right: 35%;
+    }
+
+    .carbox {
+        width: 100%;
+        top: 10%;
+        height: 80%;
+    }
+
+    .car1 {
+        top: 35%;
+        width: 70%;
+        height: 65%;
+        right: 42%;
+    }
+
+    .road {
+        top: 56%;
+        height: 23%;
+        width: 55%;
+    }
+
+    .line {
+        position: relative;
+        margin-top: 50%;
+    }
+
+    .about_company {
+        position: relative;
+        margin-top: 5%;
+        font-size: 8%;
+        width: 60%;
+    }
+
+    @keyframes car1 {
+        0% {
+            right: -100px;
+        }
+        100% {
+            right: 42%;
+        }
+    }
+
+    .your_road {
+        margin: 6% 0 0 25%;
+        width: 60%;
+        font-size: 10%;
+    }
+
+    /* экран 2 */
+
+    #section1 {
+        height: 50%;
+    }
+
+    .photo_block {
+        height: 27%;
+    }
+
+    .about_block {
+        height: 50%;
+        width: 50%;
+    }
+    .about_text {
+        font-size: 9%;
+    }
+
+    .car2 {
+        background-image: url('../images/car6.webp');
+        right: 8%;
+        top: 34%;
+        width: 100%;
+        height: 30%;
+
+    }
+
+    .block_3 {
+        height: 85%;
+    }
+
+    .expertise_block {
+        top: 40%;
+        left: 18%;
+    }
+    .overall {
+        font-size: 12%;
+        width: 100%;
+    }
+
+    .expertise_block ul {
+        font-size: 10%;
+    }
+
+    .icon {
+        position: absolute;
+        left: -7%; }
+
+
+    .contacts_and_adresses {
+        margin-top: 30%;
+
+    }
+    #contact_me {
+        font-size: 12%;
+    }
+
+    #contacts {
+        font-size: 10%;}
+
+     .s1,.s2, .numbers {
+        font-size: 12%;
+     }
+
+     .social1,  .social2, .social3, .social4, .social5 {
+        width: 15%;
+        height: 80%;
+     }
+
+    .car4 {
+        background-image: url('../images/car5.webp');
+        bottom: 48%;
+        width: 90%;
+        height: 20%;
+    }
+
+    .services {
+        margin: 62% 0 0 18%;
+    }
+    .main_services {
+        position: relative;
+        margin: 8% 0 0 17%;
+        font-size: 10%;
+    }
+
+    .what_services {
+        margin: 3% 0 0 3%;
+        font-size: 12%;
+    }
+
+    .myservices ul li {
+        margin: 5% 0 0 10%;
+        font-size: 10%;
+        width: 65%;
+    }
+
+    .service_two {
+        align-items: left;
+        position: relative;
+        margin: 10% 20% 0 0%;
+    }
+
+    .service_two h2{
+        margin: 8% 0 0 17%;
+        font-size: 12%;
+    }
+
+    .service_two ul li {
+        margin: 5% 0 0 40%;
+        font-size: 10%;
+        width: 65%;
+    }
+    .menubox2 {
+        font-size: 8%;
+        right: 33%;
+        top: 19%;}
+
+    .last_one {
+        height: 2%;
+        bottom: 0;
+    }
+
+}
+
+
+@media screen and (min-width: 428px) and (max-width: 549px) {
+    body, html {
+        height: 2100px;
     }
 
     .block_1 {
@@ -396,7 +589,7 @@
 /* -------- */
 
 /* экран для 414 */
-@media screen and (min-width: 375px) and (max-width: 425px) {
+@media screen and (min-width: 375px) and (max-width: 428px) {
     body, html {
         height: 2900px;
     }
