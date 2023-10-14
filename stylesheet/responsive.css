@@ -174,7 +174,7 @@
 
     .service_two {
         position: relative;
-        margin: 7% 12% 0 0;
+        margin: 2% 12% 0 0;
     }
 
     .service_two h2{
@@ -183,7 +183,7 @@
     }
 
     .service_two ul li {
-        margin: 5% 0 0 5%;
+        margin: 3% 0 0 5%;
         font-size: 7%;
         width: 40%;
     }
@@ -368,16 +368,16 @@
     .service_two {
         align-items: left;
         position: relative;
-        margin: 10% 20% 0 0%;
+        margin: 5% 20% 0 0%;
     }
 
     .service_two h2{
-        margin: 8% 0 0 17%;
+        margin: 4% 0 0 17%;
         font-size: 12%;
     }
 
     .service_two ul li {
-        margin: 5% 0 0 40%;
+        margin: 3% 0 0 40%;
         font-size: 10%;
         width: 65%;
     }
@@ -561,11 +561,11 @@
     .service_two {
         align-items: left;
         position: relative;
-        margin: 10% 20% 0 0%;
+        margin: 5% 20% 0 0%;
     }
 
     .service_two h2{
-        margin: 8% 0 0 17%;
+        margin: 4% 0 0 17%;
         font-size: 12%;
     }
 
@@ -758,11 +758,11 @@
     .service_two {
         align-items: left;
         position: relative;
-        margin: 10% 20% 0 0%;
+        margin: 5% 20% 0 0%;
     }
 
     .service_two h2{
-        margin: 8% 0 0 17%;
+        margin: 4% 0 0 17%;
         font-size: 15%;
     }
 

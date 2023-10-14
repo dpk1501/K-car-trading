@@ -1,7 +1,8 @@
 html, body {
     overflow-x: hidden;
     backface-visibility: hidden;
-    height: 3700px;
+    height: 3800px;
+    min-height: 100vh;
     font-size: 32vw;
     background: linear-gradient(180deg, #000 0%, rgba(157, 157, 157, 0.00) 100%);
 
